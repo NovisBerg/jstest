@@ -5,17 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    function myfunction(){
-        document.write("使用函数来执行doucment.write，即在文档加载后再执行这个操作，会实现文档覆盖");
-    }
-    document.write("<h1>这是一个标题</h1>");
-    document.write("<p>这是一个段落。</p>");
-</script>
-<p >
-    您只能在 HTML 输出流中使用 <strong>document.write</strong>。
-    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+<p id="demo">
+    我的第一个段落
 </p>
-<button type="button" onclick="myfunction()">点击这里</button>
+<script>
+    document.write(Date());
+</script>
 </body>
+<script>
+    document.getElementById("demo").innerHTML = "段落已修改";
+</script>
+
+<script>
+    a = 5;
+    b = 6;
+    c = a + b;
+    console.log(c);
+    console.log("这是在js中输出的信息。");
+</script>
+
 </html>
