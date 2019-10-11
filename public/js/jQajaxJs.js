@@ -10,8 +10,18 @@ $(document).ready(function () {
    });
 
    $("#butt1").click(function () {
-       $.get("echo.php",function (data,status) {
+       $.get("echo_get.php",function (data,status) {
             alert("获得的数据为："+data+"\n状态："+status);
        });
    });
+
+    $("#butt2").click(function(){
+        $.post("echo_post.php",{
+                name:"菜鸟教程",
+                url:"http://www.runoob.com"
+            },
+            function(data,status){
+                alert("数据: \n" + data + "\n状态: " + status);
+            });
+    });
 });
