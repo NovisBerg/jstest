@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e4cf2a-7b29-422d-83a7-d724441f37f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/formJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jQtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQtest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/mouseJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/mouseJs.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQtest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="352">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/docwindJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/mouseJs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -62,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/formJs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="95">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -92,9 +100,10 @@
         <option value="$PROJECT_DIR$/public/jQtest.html" />
         <option value="$PROJECT_DIR$/test1.html" />
         <option value="$PROJECT_DIR$/public/js/keyboardJs.js" />
-        <option value="$PROJECT_DIR$/jQtest.html" />
-        <option value="$PROJECT_DIR$/public/js/formJs.js" />
         <option value="$PROJECT_DIR$/public/js/mouseJs.js" />
+        <option value="$PROJECT_DIR$/public/js/formJs.js" />
+        <option value="$PROJECT_DIR$/public/js/docwindJs.js" />
+        <option value="$PROJECT_DIR$/jQtest.html" />
       </list>
     </option>
   </component>
@@ -140,7 +149,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,6 +165,7 @@
       <recent name="E:\phpstudy\PHPTutorial\WWW\jstest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\phpstudy\PHPTutorial\WWW\jstest\public\image" />
       <recent name="E:\phpstudy\PHPTutorial\WWW\jstest\public\js" />
     </key>
   </component>
@@ -182,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570677793501</updated>
       <workItem from="1570677794735" duration="5511000" />
-      <workItem from="1570757420729" duration="11658000" />
+      <workItem from="1570757420729" duration="13273000" />
     </task>
     <task id="LOCAL-00001" summary="changed index.php;&#10;add a new file&quot;test.html&quot;">
       <created>1570680779196</created>
@@ -240,17 +250,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570777477092</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="做了键盘模块和表单模块">
+      <created>1570789995491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570789995491</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17169000" />
+    <option name="totallyTimeSpent" value="18784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1152815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1152815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +328,8 @@
     <MESSAGE value="把js代码独立到了public文件夹下以方便分模块测试" />
     <MESSAGE value="出现了bug" />
     <MESSAGE value="修复了bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了bug" />
+    <MESSAGE value="做了键盘模块和表单模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="做了键盘模块和表单模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/js/jquery-3.4.1.min.js">
@@ -352,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/formJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/keyboardJs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -366,20 +377,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/mouseJs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/formJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/docwindJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
