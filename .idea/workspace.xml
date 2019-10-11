@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81e4cf2a-7b29-422d-83a7-d724441f37f6" name="Default Changelist" comment="添加了jQuery文件以便后续学习">
-      <change afterPath="$PROJECT_DIR$/jQtest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="81e4cf2a-7b29-422d-83a7-d724441f37f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jQtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQtest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQtest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/mouseJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -55,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/duixiang.html" />
         <option value="$PROJECT_DIR$/public/jQtest.html" />
         <option value="$PROJECT_DIR$/jQtest.html" />
+        <option value="$PROJECT_DIR$/public/js/mouseJs.js" />
       </list>
     </option>
   </component>
@@ -158,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570677793501</updated>
       <workItem from="1570677794735" duration="5511000" />
-      <workItem from="1570757420729" duration="4163000" />
+      <workItem from="1570757420729" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="changed index.php;&#10;add a new file&quot;test.html&quot;">
       <created>1570680779196</created>
@@ -188,17 +198,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570757588953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="进行了有关选择器的学习">
+      <created>1570774244430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570774244430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9674000" />
+    <option name="totallyTimeSpent" value="10573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1152815" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1152815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,7 +272,8 @@
     <MESSAGE value="测试js的几种输出方式" />
     <MESSAGE value="添加了测试js对象的duixiang.html文件" />
     <MESSAGE value="添加了jQuery文件以便后续学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了jQuery文件以便后续学习" />
+    <MESSAGE value="进行了有关选择器的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="进行了有关选择器的学习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -291,8 +309,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQtest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/mouseJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
