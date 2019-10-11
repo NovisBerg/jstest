@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuerytest</title>
+</head>
+
+<body>
+<h2>这是一个标题</h2>
+<p>这是一个段落。</p>
+<p id="xiaoshi">这是即将被消失的另一个段落。</p>
+<input type="button" value="先点我">
+<button>点我</button>
+</body>
+
+<script src="public/js/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+            $("button").click(function () {
+                $(":button").hide();
+                });
+            $("h2").dblclick(function () { //当h2标签被双击
+                alert("该段落被双击！");
+            });
+            $("p[id='xiaoshi']").mouseenter(function(){  //判断鼠标是否浮动到了id为xiaoshi的p标签上
+                $(this).css("background-color","yellow");  //将背景色换成黄色
+            });
+        });
+</script>
+</html>
