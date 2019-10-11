@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   $("button").click(function () {
+   $("button:eq(0)").click(function () {
       $("#div1").load("public/ajax/demo_test.txt #p1",function (responseTxt,statusTxt,xhr) {
 
          if(statusTxt=="success")
@@ -9,4 +9,9 @@ $(document).ready(function () {
       });
    });
 
+   $("#butt1").click(function () {
+       $.get("echo.php",function (data,status) {
+            alert("获得的数据为："+data+"\n状态："+status);
+       });
+   });
 });
