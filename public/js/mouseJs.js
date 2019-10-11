@@ -17,10 +17,10 @@ $(document).ready(function () {
     }, function () {
         $(this).css('background-color', 'red');
     });
-    // $("input[name='JPceshi']").keydown(function(){
-    //     $("input").css("background-color","yellow");
-    // });
-    // $("input[name='JPceshi']").keyup(function(){
-    //     $("input").css("background-color","pink");
-    // });
-}
+    $("input:eq(1)").keydown(function(){   //选择第二个input标签
+        $(this).css("background-color","yellow");
+    });
+    $("input[name='JPceshi']").keyup(function(){    //选择name为JPceshi的input标签
+        $(this).css("background-color","pink");
+    });
+});
