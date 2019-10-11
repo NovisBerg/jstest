@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("button").click(function () {
-        $(":button").hide();
+        $("button").hide();
     });
     $("h2").dblclick(function () { //当h2标签被双击
         alert("该段落被双击！");
@@ -16,11 +16,5 @@ $(document).ready(function () {
         $(this).css('background-color', 'green');
     }, function () {
         $(this).css('background-color', 'red');
-    });
-    $("input:eq(1)").keydown(function(){   //选择第二个input标签
-        $(this).css("background-color","yellow");
-    });
-    $("input[name='JPceshi']").keyup(function(){    //选择name为JPceshi的input标签
-        $(this).css("background-color","pink");
     });
 });
